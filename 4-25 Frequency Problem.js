@@ -1,4 +1,19 @@
+/*
+    Write a function that takes two strings and check if they have the same letters.
+    Order doesn't matter.
+    
+    Ex.
+    
+    sameFrequency("aabb", "aabc") 
+    return false
+    sameFrequency("abba", "abab") 
+    return true
+    sameFrequency("aasdebasdf", "adfeebed") 
+    return false
+*/
+
 function sameFrequency(str1, str2) {
+  // string => array
   let arr1 = str1.split("");
   let arr2 = str2.split("");
 
