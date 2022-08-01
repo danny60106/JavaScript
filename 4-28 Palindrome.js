@@ -1,3 +1,8 @@
+/*
+    Write a function that checks if the input string is a palindrome. Palindrome is a 
+    word that can be read forwards and backwards.
+*/
+
 // palindrome("tacocat"); // true
 // palindrome("amanaplanacanalpanama"); // true
 palindrome("asdfsafeaw"); // false
