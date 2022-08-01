@@ -1,3 +1,7 @@
+/*
+    Use pointer method to write averagePair.
+*/
+
 averagePair([-11, 0, 1, 2, 3, 9, 14, 17, 21], 1.5);
 
 function averagePair(arr, avg) {
@@ -12,7 +16,7 @@ function averagePair(arr, avg) {
     } else if (temp_avg < avg) {
       left++;
     } else if (temp_avg == avg) {
-      result.push([arr[right], arr[left]]);
+      result.push([arr[left], arr[right]]);
       right--;
       left++;
     }
