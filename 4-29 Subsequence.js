@@ -1,3 +1,18 @@
+/*
+    A subsequence of a string is a new string that is formed from the original string by deleting
+    some (can be none) of the characters without disturbing the relative positions of the 
+    remaining characters.
+    
+    Write a function that checks of one string is a subsequence of the other string.
+    
+    Ex.
+    
+    isSubsquence("hello", "hello Dear"); true
+    isSubsquence("book", "brooklyn"); true
+    isSubsquence("abc", "bac"); false
+    *order matters*
+*/
+
 // isSubsequence("hello", "hello Dear"); // true
 // isSubsequence("book", "brooklyn"); // true
 // isSubsequence("abc", "bac"); // false (order matters)
