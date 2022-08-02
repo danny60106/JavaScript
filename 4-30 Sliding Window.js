@@ -1,3 +1,9 @@
+/*
+    Write two functions that calculate the max and min sum of n consecutive numbers
+    in an array.
+    
+    Use Sliding Window method.
+*/
 maxSum([2, 7, 3, 0, 6, 1, -5, -12, -11], 2); // 12
 minSum([2, 7, 3, 0, 6, 1, -5, -12, -11], 3); // -28
 
