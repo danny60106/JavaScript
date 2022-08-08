@@ -1,3 +1,8 @@
+/*
+    Write a function called uniqueLetterString, which accepts a string and returns the
+    length of the longest substring with all distinct characters.
+*/
+
 function uniqueLetterString(str) {
   let start = 0;
   let end = 0;
@@ -5,7 +10,7 @@ function uniqueLetterString(str) {
   let maxLength = -Infinity;
 
   while (end < str.length) {
-    console.log(counter);
+    //console.log(counter);
     if (counter[str[end]]) {
       counter[str[start]]--;
       start++;
@@ -27,4 +32,4 @@ function uniqueLetterString(str) {
   return maxLength;
 }
 
-uniqueLetterString(""); // 6
+uniqueLetterString("thisishowwedoit"); // 6
