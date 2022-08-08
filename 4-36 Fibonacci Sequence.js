@@ -1,3 +1,8 @@
+/*
+    Write a function that takes an integer N as an input and returns the Nth number in
+    Fibonacci Sequence.
+*/
+
 function fs(n) {
   if (n == 0) {
     return 0;
