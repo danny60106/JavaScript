@@ -1001,6 +1001,13 @@ let thousandDigits = [
   0,
 ];
 
+/*
+    The four adjacent digits in the 1000-digit number that have the greatest product are 
+    9 x 9 x 8 x 9 = 5832.
+    Find the n adjacent digits in the 1000-digit number that have the greatest product.
+    What is the value of this product? 
+*/
+
 function largestProduct(n) {
   let currentProduct;
   let maxProduct = -Infinity;
