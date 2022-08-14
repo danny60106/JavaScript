@@ -1,3 +1,8 @@
+/*
+    Write a function that collects all value in an array of arrays and return an array of
+    values collected.
+*/
+
 let arrs = [[[["a", [["b", ["c"]], ["d"]]], [["e"]], [[["f", "g", "h"]]]]]];
 
 function collector(arr1) {
