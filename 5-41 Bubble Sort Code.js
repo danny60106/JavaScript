@@ -1,3 +1,7 @@
+/*
+    Bubble sort compares adjacent elements and swaps them if they are in the wrong order.
+*/
+
 function bubbleSort(arr) {
   let step = 0;
   for (let i = 0; i <= arr.length - 2; i++) {
