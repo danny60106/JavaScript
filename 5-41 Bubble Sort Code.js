@@ -1,6 +1,19 @@
 /*
     Bubble sort compares adjacent elements and swaps them if they are in the wrong order.
-*/
+    -- => Compare Operator
+    Step 1.
+            4, 7, 1, 2, 5, 3
+    Step 2.             -  -
+            4, 7, 1, 2, 3, 5  Swap(3,5)
+    Step 3.          -  -
+            4, 7, 1, 2, 3, 5
+    Step 4.       -  -  
+            4, 7, 1, 2, 3, 5
+    Step 5.    -  -           
+            4, 1, 7, 2, 3, 5  Swap(7,1)
+    Step 6. -  -
+            1, 4, 7, 2, 3, 5  Swap(4,1)
+*/ 
 
 function bubbleSort(arr) {
   let step = 0;
