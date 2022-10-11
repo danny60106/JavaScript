@@ -1,3 +1,11 @@
+/*
+    -Insertion sort is a little bit more efficient than bubble sort in practice. Theoretically,
+    they have the same Big O value.
+    
+    -The principle of insertion sort is simple. Keeping inserting a new value into a 
+    sorted array.Insert it to the coorect spot so the sorted array remains sorted.
+*/
+
 let unsorted = [14, -4, 17, 6, 22, 1, -5];
 
 insertionSort(unsorted);
@@ -15,4 +23,4 @@ function insertionSort(arr) {
 
   console.log(arr);
   return arr;
-}
+} 
