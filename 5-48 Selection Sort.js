@@ -8,7 +8,7 @@ let unsorted = [14, -4, 17, 6, 22, 1, -5];
 selectionSort(unsorted);
 
 function selectionSort(arr) {
-  for (let i = 0; i <= arr.length - 2; i++) {
+  for (let i = 0; i <= arr.length - 2; i++) { //只做到倒數第二個，最後一個數字在程式結束時，位置就是正確的。
     let minIndex = i;
     for (let j = i; j <= arr.length - 1; j++) {
       if (arr[j] < arr[minIndex]) {
