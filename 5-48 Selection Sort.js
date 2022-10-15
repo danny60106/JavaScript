@@ -1,3 +1,8 @@
+/*
+    - The principle of selection sort is - select the smallest value in unsorted array, and
+    then swap it with the left most value in this unsorted array.
+*/
+
 let unsorted = [14, -4, 17, 6, 22, 1, -5];
 
 selectionSort(unsorted);
