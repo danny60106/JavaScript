@@ -41,7 +41,7 @@ function mergeSort(arr) {
     let middle = Math.floor(arr.length / 2);
     let left = arr.slice(0, middle);
     let right = arr.slice(middle, arr.length);
-    return merge(mergeSort(right), mergeSort(left));
+    return merge(mergeSort(right), mergeSort(left)); // 不斷遞迴後分成逐一元素的array
   }
 }
 
