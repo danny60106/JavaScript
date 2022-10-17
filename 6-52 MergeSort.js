@@ -1,3 +1,9 @@
+/*
+    -The principle of merge sort is quite simple. Take advantage of the fact that
+    combining two sorted arrays has O(n) time complexity, using the pointer skill.
+    
+    -This sorting algorithm is a classic example of "divide and conquer."
+*/
 function merge(a1, a2) {
   let result = [];
   let i = 0;
