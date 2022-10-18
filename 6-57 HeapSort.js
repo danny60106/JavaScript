@@ -1,3 +1,9 @@
+/*
+    - Heap sort uses Max Heap to sort.
+    - In order to understand our next sorting algorithm, Heap Sort, you must first
+    understand what a "max heap" is. Also, we need to know how max heap algorithm works.
+*/
+
 let heapSize;
 let arr = [15, 3, 17, 18, 20, 2, 1, 666];
 heapSort();
