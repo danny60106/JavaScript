@@ -1,3 +1,12 @@
+/*
+  -It's an algorithm that sequentially checks each element of the list until a match is
+  fount or the whole list has been searched.
+  
+  -Probably the easily algorithm we will learn in this course.
+  
+  -In our coding practice,we will try to find a number inside an array.If the number
+  could be found,then return the index.If not, then return -1.
+*/
 let numbers = [
   33, 99, 97, 28, 87, 72, 48, 72, 18, 89, 18, 45, 85, 13, 70, 80, 10, 88, 92,
   65, 23, 73, 88, 55, 1, 79, 95, 69, 30, 31, 88, 13, 32, 86, 15, 51, 69, 29, 11,
