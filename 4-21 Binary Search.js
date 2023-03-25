@@ -1,3 +1,14 @@
+/*
+  -Binary search is a search algorithm that finds the position of a target value within a
+  sorted array.
+  
+  -More efficient than linear search,but only works with sorted data set.
+  
+  -In our coding practice,we will have a sorted array, and one number we want to
+  find inside this sorted array.If the number could be found,then return the index.If
+  not,then return -1.
+*/
+
 let numbers = [
   9, 12, 15, 18, 19, 20, 22, 25, 26, 26, 33, 37, 38, 41, 47, 47, 50, 55, 57, 60,
   68, 80, 87, 90, 98, 100, 103, 108, 109, 109, 116, 120, 120, 124, 127, 128,
